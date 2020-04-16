@@ -8,14 +8,14 @@
     },
     "tsconfig.json": "*",
     "tslint.json": "*",
-    "nx.json": "*",
-    "azure-pipelines.yml": "*"
+    "nx.json": "*"
   },
   "tasksRunnerOptions": {
     "default": {
-      "runner": "@nrwl/workspace/tasks-runners/default",
+      "runner": "@nrwl/nx-cloud",
       "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e"]
+        "accessToken": "YWZhNmRhODktYmMyMy00NGRmLWI0M2YtYjQ5NTQzMWE3NDc1fHJlYWQ=",
+        "cacheableOperations": ["build", "test", "lint", "e2e"]
       }
     }
   },
