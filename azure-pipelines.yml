@@ -6,6 +6,10 @@
 pr:
 - master
 
+variables:
+- name: NX_CLOUD_AUTH_TOKEN
+  value: $(NX_CLOUD_AUTH_TOKEN)
+
 pool:
   vmImage: 'ubuntu-latest'
 
