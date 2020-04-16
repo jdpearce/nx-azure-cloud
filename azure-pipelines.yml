@@ -22,5 +22,5 @@ steps:
 
 - script: |
     npm install
-    npx nx affected:build --base=master --head=HEAD
+    npx nx affected:build --base=remotes/origin/master --head=HEAD
   displayName: 'npm install and build'
