@@ -8,7 +8,7 @@ pr:
 
 variables:
 - name: NX_CLOUD_AUTH_TOKEN
-  value: $(NX_CLOUD_AUTH_TOKEN)
+  value: $(NxCloudAuthToken)
 
 pool:
   vmImage: 'ubuntu-latest'
