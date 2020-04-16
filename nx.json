@@ -8,20 +8,14 @@
     },
     "tsconfig.json": "*",
     "tslint.json": "*",
-    "nx.json": "*",
-    "azure-pipelines.yml": "*"
+    "nx.json": "*"
   },
   "tasksRunnerOptions": {
     "default": {
       "runner": "@nrwl/nx-cloud",
       "options": {
         "accessToken": "YWZhNmRhODktYmMyMy00NGRmLWI0M2YtYjQ5NTQzMWE3NDc1fHJlYWQ=",
-        "cacheableOperations": [
-          "build",
-          "test",
-          "lint",
-          "e2e"
-        ]
+        "cacheableOperations": ["build", "test", "lint", "e2e"]
       }
     }
   },
@@ -31,9 +25,7 @@
     },
     "todos-e2e": {
       "tags": [],
-      "implicitDependencies": [
-        "todos"
-      ]
+      "implicitDependencies": ["todos"]
     },
     "api": {
       "tags": []
